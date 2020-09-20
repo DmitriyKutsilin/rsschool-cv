@@ -1,0 +1,25 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgba(255, 253, 217, 0.8);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+h2 {
+    font-family: Helvetica;
+    line-height: 0.7;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+.image {
+    position: relative;
+    float: right;
+    top: 10px;
+}
