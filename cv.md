@@ -13,3 +13,8 @@ HTML/CSS
 Photoshop
 JS
 
+#Education
+International Uneversity MITSO, 2020
+
+#English level
+B1 - Intermediate
