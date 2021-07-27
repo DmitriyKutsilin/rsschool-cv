@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    max-width: 1024px;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+/* HEADER */
+
+#header_container {
+    display: flex;
+    height: 580px;
+    background-color: #161B25;
+}
+
+.header_empty {
+    width: 84px;
+}
+
+.header_photo {
+    width: 356px;
+    background-color: #21252F;
+}
+
+.photo {
+    width: 356px;
+    position: relative;
+    top: 130px;
+}
+
+.header_info {
+    width: 600px;
+}
+
+.info_details {
+    position: relative;
+    top: 130px;
+    left: 50px;
+    color: #fff;
+}
+
+.name {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.occupation {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    background-color: #2E323B;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.contacts {
+    position: relative;
+    top: 100px;
+}
+
+.contacts_list {
+    list-style-type: none;
+    position: relative;
+    padding: 5px;
+}
+
+.contacts_color {
+    color: #A0A1A3;
+}
+
+
+
+/* MAIN */
+
+#main_container {
+    height: 600px;
+    display: flex;
+    background-color: #f7f7f5;
+}
+
+.main_empty {
+    width: 84px;
+}
+
+.education_hobbies_container {
+    display: flex;
+    width: 365px;
+    background-color: #E7E8E9;
+    flex-direction: column;
+}
+
+.education_container {
+    position: relative;
+    top: 50px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 0;
+}
+
+.hobbies_container {
+    position: relative;
+    top: 80px;
+    width: 250px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hobbies_list {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+}
+
+.experience_skills_container {
+    display: flex;
+    width: 600px;
+    background-color: #f7f7f5;
+    flex-direction: column;
+}
+
+.experience_container {
+    position: relative;
+    top: 50px;
+    width: 470px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.exp_1 {
+    width: 470px;
+    height: 96px;
+    position: relative;
+
+}
+
+.exp_2 {
+    width: 470px;
+    height: 96px;
+    position: relative;
+    
+}
+
+.skills_container {
+    position: relative;
+    top: 80px;
+    width: 470px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skills_list {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+}
+
+
+
+/* FOOTER */
+
+#footer_container {
+    height: 150px;
+    display: flex;
+    background-color: #f7f7f5;
+}
+
+.footer_empty {
+    width: 84px;
+    background-color: #161B25;
+}
+
+.footer_article {
+    width: 365px;
+    background-color: #21252F;
+}
+
+.article_info {
+    width: 250px;
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+
+.code_example_article {
+    width: 600px;
+    background-color: #161B25;
+}
+
+.code_example {
+    width: 470px;
+    position: relative;
+    top: 55px;
+}
